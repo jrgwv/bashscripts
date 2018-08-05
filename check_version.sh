@@ -20,7 +20,7 @@ if [[ "${arr[0]}" -ge "${major}" ]]; then
    if [[ "${arr[1]}" -ge "${minor}" ]]; then 
 
       if [[ "${arr[2]}" -ge "${maintenance}" ]]; then
-         echo "passed"
+       echo ""   
       else
          errecho "maintenance is below ${maintenance}"
          exit 1
